@@ -1,0 +1,24 @@
+5.1
+Shifts 4 to the left once, returning 8.
+
+5.2
+"Hello" is printed if 4 shifted to the left once is not equal to 6 (which is always true).
+In order to avoid printing, set the initial value to 3 instead of 3
+
+5.3
+The bottom-right block (calls printf)
+mov dword [var_4h], 0
+cmp dword [var_4h], 9
+add dword [var_4h], 1
+
+5.4
+cmp eax, 0xe00 (3584) must be 0 (equal)
+
+5.5
+
+Mapping:
+5.1: double
+5.2: simple_if
+5.3: print_to_10
+5.4: pincode
+5.5: fibonacci
