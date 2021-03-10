@@ -1,6 +1,6 @@
 # Exercise 2: C programs
 
-Welcome to the 2nd exercise of today. Here, we will learn about the C language, with a focus on how to compile a c program, and how to use `conditionals`, `loops` and `functions`.
+Welcome to the 2nd exercise of today. Here, we will learn about the C language, with a focus on how to compile a c program, and how to use `conditionals`, `loops` and `functions`. 
 
 <b>Useful links:</b>
 * [C documentation](https://devdocs.io/c/)
