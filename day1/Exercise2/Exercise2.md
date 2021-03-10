@@ -35,40 +35,98 @@ gcc 2a.c -o 2a.c
 ## Exercise 2b
 Now, we will jump into some *Conditionals*. If you are familiar with programming, you have probably used them before. 
 
-You will have to finish this piece of code, then compile it and see if it runs correctly You can try this iteratively. If you are unsure what to do, try and write out the code as is in a new file, then compile. What does it say?
+You will have to finish this piece of code, then compile it and see if it runs correctly. Whenever you see `*BLANK*`, you will fill in correct code.
 <details>
 <summary>Hint</summary>
-<i>Hint: </i>
+
+<i>Hint: If you are unsure what to do, try and write out the code as is in a new file, then compile. What does it say? </i>
 </details>
 
-``` 
+```c
+#include <stdio.h>
+int main() {
+	int number = 5;
+
+	printf("Is the integer bigger than 0?\n");
+
+	if (number *BLANK* 0) {
+		printf("The number IS bigger than 0\n");
+	}
+}
+
 ```
 ## Exercise 2c
 We continue with the conditionals, finish the code, compile and review.
 <details>
 <summary>Hint</summary>
-<i>Hint: </i>
+<i>Hint: You might want to reverse your ealier answer. </i>
 </details>
 
-``` 
+```c
+#include <stdio.h>
+int main() {
+	int number = 5;
+
+	printf("Is the integer bigger than 0?\n");
+
+	if (number *BLANK* 0) {
+		printf("The number is NOT bigger than 0\n");
+	} *BLANK* {
+		printf("The number IS bigger than 0\n");
+	}
+}
 ```
 ## Exercise 2d
-For the next two exercises, we are going to handle some *Loops*. Very common and used in most imperative code. Finish, compile, review.
+For the next two exercises, we are going to handle some *Loops*. Very common and used in most imperative code. Here, we see the `for-loop`. Finish, compile, review.
 <details>
 <summary>Hint</summary>
-<i>Hint: </i>
+<i>Hint: We count in reverse, hence i starts high, then descends</i>
 </details>
 
-``` 
+```c
+#include <stdio.h>
+int main() {
+	int i;
+
+	printf("I will print until I hit 0:\n");
+	for (i = 10; i *BLANK* 0; i *BLANK*) {
+		printf("%d\n", i);
+	}
+	return 0;
+}
 ```
 ## Exercise 2e
-We stay with the loops for another piece. Again fill in the blanks, compile and review. <br> 
+We stay with the loops for another piece. Again fill in the blanks, compile and review. This time, we dive down into the `while-loop`. 
 <details>
 <summary>Hint</summary>
 <i>Hint: </i>
 </details>
 
-``` 
+```c
+#include <stdio.h>
+int main() {
+
+	int n = 0;
+	int size = 5;
+	int array[size];
+
+	do {
+		array[n] = n;
+		*BLANK*++;
+	} while (n < size);
+
+	n = 0;
+	printf("Heres the array: ");
+    
+	*BLANK* {
+		printf("%d ", array[n]);
+		*BLANK*++;
+	} while (n < size);
+	printf("\n");
+
+	return 0;
+}
+
 ```
 ## Exercise 2f
 For the last two exerices, we will tackle some *functions* in C. 
