@@ -3,7 +3,7 @@
 Hello and welcome to the 4th exercise in the workshop. This exercise will help you understand and read assembly.
 Please feel free to use any online resources you find necessary.
 
-<b>Usefull links:</b>
+<b>Useful links:</b>
 * [x86 Assembly Cheat Sheat](http://www.jegerlehner.ch/intel/IntelCodeTable.pdf)
 
 ## Exercise 4a
