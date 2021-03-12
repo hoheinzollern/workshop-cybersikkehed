@@ -43,7 +43,7 @@ It can be usefull to build your payload in python and write it to a file, you ca
 Now pop your first rop shell!
 
 ## 6c
-
+The rest of the binaries in this folder are for you to practice ROP on :-)
 
 
 
