@@ -1,4 +1,5 @@
 # Exercise 6
+### This is hard!
 
 ## 6a
 In this exercise you will learn what it means to avoid protections in binaries.
@@ -24,5 +25,25 @@ _checksec_ is a great tool for checking all kinds of binary protections, you can
 </details>
 
 The `rop` binary has the NX bit set, and so the stack is not executable, luckily for you we have added a `win` function you can call :) .
+
+## 6b
+This time the goal is a little different, the win function takes one argument that it will pass to the `system` function. Try and examine the system function using `man`.
+You would like to open a shell on the system, this is done by executiong `/bin/sh`.
+
+When we do ROP we would often like specific instructions or "gadgets", these are any instructions immidiately followed by a `ret` instruction.
+You can try to find these using `objdump` and `grep`, something like `objdump -Mintel -D rop2 | grep -B 2 ret` should get you started.
+
+Now we want to call a function with an argument, in x64 the arguments to functions are passed in rdi, rsi, rdx, rcx, and then the rest on the stack. This means we need to get our argument into the rdi register. You can use a hgadget for this. Find it and note down the address of the instruction.
+Since we also don't know the location of the stack (assuming you have ASLR enabled) you also need to find the correct address of the argument `/bin/sh`. Look for it in the binary.
+
+Now build your rop chain, it should look like the following:
+`[padding][gadget][binsh str][win func]`
+
+It can be usefull to build your payload in python and write it to a file, you can then use `$ r < exploitfile` in gdb to use it as input.
+Now pop your first rop shell!
+
+## 6c
+
+
 
 
