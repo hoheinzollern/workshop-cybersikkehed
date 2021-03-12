@@ -108,10 +108,21 @@ int main() {
 ```
 
 ## Exercise 3e
+For the very last exercise, you have to overwrite the intruction pointer and take over the program. Heres the c code. How will you do it?
 
-## Exercise 3f
+```c
+#include <stdlib.h>
+#include <unistd.h>
+#include <stdio.h>
+#include <string.h>
 
+void function() {
+ printf("You have succesfully called function()\n");
+}
 
-    
-   
-   
+int main(int argc, char **argv) {
+ char buffer[64];
+
+ gets(buffer);
+}
+```
