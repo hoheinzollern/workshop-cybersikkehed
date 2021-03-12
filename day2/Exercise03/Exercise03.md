@@ -22,6 +22,9 @@ printf()
 fputs() 
 ```
 
+If you want to recompile any of the c files yourself you can do as follows:<br>
+*gcc Bof1.c -o Bof1 -fno-stack-protector -z execstack -no-pie -O0 -m32*
+
 ## Exercise 3b
 Now, we are going to look at an actual piece of code! Here, I will present the c code and you will find the binary in the folder. Look at the code, run the binary, and see if you can exploit the vulnerability and get c to the right value:
 
