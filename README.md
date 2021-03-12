@@ -22,6 +22,7 @@ You need access to a Kali setup, so if you have it already setup, you can skip t
     wget -q -O- https://github.com/hugsy/gef/raw/master/scripts/gef.sh | sh
     sudo wget https://github.com/rizinorg/cutter/releases/download/v1.12.0/Cutter-v1.12.0-x64.Linux.appimage -O /usr/local/bin/cutter
     sudo chmod +x /usr/local/bin/cutter
+    git clone https://github.com/hoheinzollern/workshop-cybersikkehed.git
     ```
 4. To check that you have done everything correctly, type `cmatrix` and press Enter. Good job! (Press `CTRL+C` to exit)
 
