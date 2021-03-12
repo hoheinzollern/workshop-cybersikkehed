@@ -4,7 +4,7 @@ Hello and welcome to the 4th exercise in the workshop. This exercise will help y
 Please feel free to use any online resources you find necessary.
 
 <b>Useful links:</b>
-* [x86 Assembly Cheat Sheat](http://www.jegerlehner.ch/intel/IntelCodeTable.pdf)
+* [x86 Assembly Cheat Sheet](http://www.jegerlehner.ch/intel/IntelCodeTable.pdf)
 
 ## Exercise 4a
 Select three or more of the following instructions and explain what they do: </br>
