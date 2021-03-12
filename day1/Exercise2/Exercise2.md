@@ -22,7 +22,7 @@ int main()
 * Now we want to see it in action!
 * Open your terminal and write
 ```shell
-gcc 2a.c -o 2a.c
+gcc 2a.c -o 2a
 ```
 * `-o` is a way to compile our code into a specific name.
 * Now, you can run the code by writing
