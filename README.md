@@ -16,9 +16,10 @@ You need access to a Kali setup, so if you have it already setup, you can skip t
 
 1. Login into your Kali Linux with username `kali` and password `kali`.
 2. Open a terminal window. You can do this clicking on the "Terminal Emulator" icon on the top left (the fourth from the left) or by typing `ALT+F2` and then typing `qterminal` in the dialog window.
-3. Install the software that we need for the session by entering the following commands:
+3. Install the software that we need for the session by entering the following commands (you can copy paste them from the browser into the terminal, then press Enter):
     ```
     sudo apt install -y gdb cmatrix
+    wget -q -O- https://github.com/hugsy/gef/raw/master/scripts/gef.sh | sh
     sudo wget https://github.com/rizinorg/cutter/releases/download/v1.12.0/Cutter-v1.12.0-x64.Linux.appimage -O /usr/local/bin/cutter
     sudo chmod +x /usr/local/bin/cutter
     ```
