@@ -1,5 +1,8 @@
 # Nationalcybersikkerhed virtual training
 
+Join our Discord Server for company and help!
+https://discord.gg/gQ6A9x7C
+
 ## Workshop day 1
 
 Inside the [day1](day1/) folder you find the material for the first day of the workshop.
