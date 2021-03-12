@@ -5,6 +5,8 @@ Welcome to the 3rd exercise of today. Here, we will learn more about the stack, 
 * [C documentation](https://devdocs.io/c/)
 * [Common C code vulnerabilities](https://int0x33.medium.com/day-49-common-c-code-vulnerabilities-and-mitigations-7eded437ca4a)
 
+If you want to recompile any of the following c files yourself you can do as follows:<br>
+*gcc Bof1.c -o Bof1 -fno-stack-protector -z execstack -no-pie -O0 -m32*
 
 ## Exercise 3a
 For this first exercise we are going to look at some c vulnerabilities. There are multiple notorious functions known for their vulnerability to adversaries. These fuctions can cause errors, which gives a malicious user direct root access if they know how to abuse them.
@@ -21,9 +23,6 @@ puts()
 printf() 
 fputs() 
 ```
-
-If you want to recompile any of the c files yourself you can do as follows:<br>
-*gcc Bof1.c -o Bof1 -fno-stack-protector -z execstack -no-pie -O0 -m32*
 
 ## Exercise 3b
 Now, we are going to look at an actual piece of code! Here, I will present the c code and you will find the binary in the folder. Look at the code, run the binary, and see if you can exploit the vulnerability and get c to the right value:
