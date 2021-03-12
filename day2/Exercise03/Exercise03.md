@@ -108,7 +108,7 @@ int main() {
 ```
 
 ## Exercise 3e
-For the very last exercise, you have to overwrite the intruction pointer and take over the program. Heres the c code. How will you do it?
+For the very last exercise, you have to overwrite the instruction pointer and take over the program. Heres the c code. How will you do it?
 
 ```c
 #include <stdlib.h>
