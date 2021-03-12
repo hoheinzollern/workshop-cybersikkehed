@@ -1,4 +1,5 @@
 # Nationalcybersikkerhed virtual training
+Join our Discord Server for company and help! https://discord.gg/gQ6A9x7C
 
 ## Workshop day 1
 
