@@ -12,7 +12,7 @@ fputs() --- The newer version of puts(). No new line.
 ```
 
 ## Exercise 3b
-`python -c 'print 30*"A"' |./Bof1`s
+`python -c 'print 30*"A"' |./Bof1`
 
 # Endianness, Variation 2
 ## Exercise 3c
@@ -23,3 +23,5 @@ fputs() --- The newer version of puts(). No new line.
 
 # Instruction pointer, Pro
 ## Exercise 3e
+https://0xrick.github.io/binary-exploitation/bof4/
+
