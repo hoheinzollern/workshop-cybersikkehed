@@ -9,7 +9,7 @@ int main() {
     gets(bof);
 
     if (c != 0) {
-        printf("Contgratulations!\n");
+        printf("Congratulations!\n");
         printf("c now has the value %x\n", c);
         exit(0);
     }

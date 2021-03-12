@@ -3,12 +3,12 @@
 
 int main() {
     int c = 0;
-    char bof[10];
+    char bof[24];
     
     printf("Give me some input: ");
     gets(bof);
 
-    if (c == 0xcafebabe) {
+    if (c == 0xdeadbeef) {
         printf("Congratulations!\n");
         printf("c now has the value %x\n", c);
         exit(0);
