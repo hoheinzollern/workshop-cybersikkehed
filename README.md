@@ -38,4 +38,6 @@ The recording for the open parts of this session is available [here](https://use
 
 ## Workshop Day 2
 
-TBD
+Inside the [day1](day2/) folder you find the material for the second day of the workshop.
+You will find the [notebook](day2/presentation.ipynb) with the presentation for the day, as well as the exercises for each section.
+The recording for the open parts of this session is available [here](https://use.vg/).
