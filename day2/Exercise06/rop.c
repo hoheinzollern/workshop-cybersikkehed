@@ -2,6 +2,7 @@
 
 void win() {
     printf("You've won!");
+    exit(0);
 }
 
 int main() {
