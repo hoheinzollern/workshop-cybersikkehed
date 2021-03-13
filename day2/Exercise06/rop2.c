@@ -2,6 +2,7 @@
 #include <stdlib.h>
 void win(char* cmd) {
     system(cmd);
+    exit(0);
 }
 
 void help2() {
