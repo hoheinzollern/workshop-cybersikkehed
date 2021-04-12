@@ -16,7 +16,7 @@ You should now be able to run the binary by
 ```
 ./victim
 ```
-And you should recieve the output of:
+And you should receive the output of:
 ```
 0xffd62530
 What's your name?
