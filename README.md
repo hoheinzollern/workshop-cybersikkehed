@@ -20,7 +20,7 @@ You need access to a Kali setup, so if you have it already setup, you can skip t
     ```
     sudo apt install -y gdb cmatrix ghidra
     wget -q -O- https://github.com/hugsy/gef/raw/master/scripts/gef.sh | sh
-    sudo wget https://github.com/rizinorg/cutter/releases/download/v1.12.0/Cutter-v1.12.0-x64.Linux.appimage -O /usr/local/bin/cutter
+    sudo wget https://github.com/rizinorg/cutter/releases/download/v2.0.5/Cutter-v2.0.5-x64.Linux.appimage -O /usr/local/bin/cutter
     sudo chmod +x /usr/local/bin/cutter
     git clone https://github.com/hoheinzollern/workshop-cybersikkehed.git
     ```
