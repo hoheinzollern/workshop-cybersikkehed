@@ -26,10 +26,6 @@ You need access to a Kali setup, so if you have it already setup, you can skip t
     ```
 4. To check that you have done everything correctly, type `cmatrix` and press Enter. Good job! (Press `CTRL+C` to exit)
 
-## Get support from us
-
-Join our Discord Server for company and help! https://discord.gg/gQ6A9x7C
-
 ## Workshop Day 1
 
 This year we will cover the great material by [omu training](https://omu.rce.so/gcc-2022/) given at the [Global Cybersecurity Camp](https://gcc.ac/).
