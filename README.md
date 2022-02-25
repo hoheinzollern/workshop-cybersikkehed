@@ -18,7 +18,7 @@ You need access to a Kali setup, so if you have it already setup, you can skip t
 2. Open a terminal window. You can do this clicking on the "Terminal Emulator" icon on the top left (the fourth from the left) or by typing `ALT+F2` and then typing `qterminal` in the dialog window.
 3. Install the software that we need for the session by entering the following commands (you can copy paste them from the browser into the terminal, then press Enter):
     ```
-    sudo apt install -y gdb cmatrix
+    sudo apt install -y gdb cmatrix ghidra
     wget -q -O- https://github.com/hugsy/gef/raw/master/scripts/gef.sh | sh
     sudo wget https://github.com/rizinorg/cutter/releases/download/v1.12.0/Cutter-v1.12.0-x64.Linux.appimage -O /usr/local/bin/cutter
     sudo chmod +x /usr/local/bin/cutter
@@ -32,12 +32,10 @@ Join our Discord Server for company and help! https://discord.gg/gQ6A9x7C
 
 ## Workshop Day 1
 
-Inside the [day1](day1/) folder you find the material for the first day of the workshop.
-You will find the [notebook](day1/presentation.ipynb) with the presentation for the day, as well as the exercises for each section.
-The recording for the open parts of this session is available [here](https://use.vg/nnLu42hXPZFB).
+This year we will cover the great material by [omu training](https://omu.rce.so/gcc-2022/) given at the [Global Cybersecurity Camp](https://gcc.ac/).
+For the first day you don't really need the Kali VM, but it will be helpful for Saturday morning, so be prepared :)
+On day 1 we will cover [Lesson 1: x86-64 Assembly](http://gcc.rce.so/lesson1/) and [Lesson 2: Linux Reverse-Engineering](http://gcc.rce.so/lesson2/)
 
 ## Workshop Day 2
 
-Inside the [day2](day2/) folder you find the material for the second day of the workshop.
-You will find the [notebook](day2/presentation.ipynb) with the presentation for the day, as well as the exercises for each section.
-The recording for the open parts of this session is available [here](https://use.vg/1zoCBd5GFJLQ).
+On the second day we will cover [Lesson 3: Buffer overflows](http://gcc.rce.so/lesson3/) and we will go [from zero to hero](https://github.com/seal9055/PWN_Zero2Hero) with a cool set of challenges and the tools you have installed on your machine
