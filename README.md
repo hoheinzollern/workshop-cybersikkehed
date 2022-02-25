@@ -5,10 +5,10 @@
 
 ### Install Kali Linux
 You need access to a Kali setup, so if you have it already setup, you can skip this step. Otherwise follow these instructions:
-1. Download VirtualBox [here](https://www.virtualbox.org/wiki/Download_Old_Builds_6_0), follow the relevant link for your operating system. Also download the [Extension pack](https://download.virtualbox.org/virtualbox/6.0.24/Oracle_VM_VirtualBox_Extension_Pack-6.0.24.vbox-extpack).
+1. Download VirtualBox [here](https://www.virtualbox.org/wiki/Downloads), follow the relevant link for your operating system. Also download the [Extension pack](https://download.virtualbox.org/virtualbox/6.1.32/Oracle_VM_VirtualBox_Extension_Pack-6.1.32.vbox-extpack).
 2. Install VirtualBox: click on the install package and follow the instructions.
 3. Install the extension pack: open the file Oracle_VM_VirtualBox_Extension_Pack-6.0.24.vbox-extpack from your download folder.
-4. Download Kali Linux for VirtualBox, which you can find [here](https://www.offensive-security.com/kali-linux-vm-vmware-virtualbox-image-download/). Open the tab "Kali Linux VirtualBox Images" and click on the link "Kali Linux VirtualBox 64-Bit (OVA)"
+4. Download Kali Linux for VirtualBox, which you can find [here](https://www.kali.org/get-kali/). Open the tab "Kali Linux VirtualBox Images" and click on the link "Kali Linux VirtualBox 64-Bit (OVA)"
 5. Install Kali Linux by opening the file that you downloaded. This will open VirtualBox with an "Import Virtual Appliance" window. Click on "Import".
 6. You're done! now you can start Kali by clicking "Start" on VirtualBox.
 
