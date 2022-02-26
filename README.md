@@ -34,3 +34,11 @@ On day 1 we will cover [Lesson 1: x86-64 Assembly](http://gcc.rce.so/lesson1/) a
 ## Workshop Day 2
 
 On the second day we will cover [Lesson 3: Buffer overflows](http://gcc.rce.so/lesson3/) and we will go [from zero to hero](https://github.com/seal9055/PWN_Zero2Hero) with a cool set of challenges and the tools you have installed on your machine
+
+## Further resources
+
+- Join the [Cyberskills Discord](https://discord.com/invite/jXegFccA) and ask questions!
+- Learn more about exploitation at [pwn.college](https://pwn.college/)!
+- Do some [crackmes](https://crackmes.one/)!
+- Own them nice flags at [PicoCTF](https://www.picoctf.org/)
+- Learn return-oriented programming at [ROP Emporium](https://ropemporium.com/)
