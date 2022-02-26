@@ -18,10 +18,9 @@ You need access to a Kali setup, so if you have it already setup, you can skip t
 2. Open a terminal window. You can do this clicking on the "Terminal Emulator" icon on the top left (the fourth from the left) or by typing `ALT+F2` and then typing `qterminal` in the dialog window.
 3. Install the software that we need for the session by entering the following commands (you can copy paste them from the browser into the terminal, then press Enter):
     ```
-    sudo apt install -y gdb cmatrix ghidra
+    sudo apt install -y gdb cmatrix ghidra python3-pip
     wget -q -O- https://github.com/hugsy/gef/raw/master/scripts/gef.sh | sh
-    sudo wget https://github.com/rizinorg/cutter/releases/download/v2.0.5/Cutter-v2.0.5-x64.Linux.appimage -O /usr/local/bin/cutter
-    sudo chmod +x /usr/local/bin/cutter
+    pip install pwntools
     git clone https://github.com/hoheinzollern/workshop-cybersikkehed.git
     ```
 4. To check that you have done everything correctly, type `cmatrix` and press Enter. Good job! (Press `CTRL+C` to exit)
