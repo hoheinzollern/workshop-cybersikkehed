@@ -37,7 +37,7 @@ On the second day we will cover [Lesson 3: Buffer overflows](http://gcc.rce.so/l
 
 ## Further resources
 
-- Join the [Cyberskills Discord](https://discord.com/invite/jXegFccA) and ask questions!
+- Join the [Cyberskills Discord](https://discord.gg/eKhx4KSR) and ask questions!
 - Learn more about exploitation at [pwn.college](https://pwn.college/)!
 - Do some [crackmes](https://crackmes.one/)!
 - Own them nice flags at [PicoCTF](https://www.picoctf.org/)
