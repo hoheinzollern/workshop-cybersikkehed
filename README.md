@@ -18,6 +18,7 @@ You need access to a Kali setup, so if you have it already setup, you can skip t
 2. Open a terminal window. You can do this clicking on the "Terminal Emulator" icon on the top left (the fourth from the left) or by typing `ALT+F2` and then typing `qterminal` in the dialog window.
 3. Install the software that we need for the session by entering the following commands (you can copy paste them from the browser into the terminal, then press Enter):
     ```
+    sudo apt update
     sudo apt install -y gdb cmatrix ghidra python3-pip
     bash -c "$(curl -fsSL https://gef.blah.cat/sh)"
     pip install pwntools
