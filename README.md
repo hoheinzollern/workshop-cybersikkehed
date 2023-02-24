@@ -19,7 +19,7 @@ You need access to a Kali setup, so if you have it already setup, you can skip t
 3. Install the software that we need for the session by entering the following commands (you can copy paste them from the browser into the terminal, then press Enter):
     ```
     sudo apt install -y gdb cmatrix ghidra python3-pip
-    wget -q -O- https://github.com/hugsy/gef/raw/master/scripts/gef.sh | sh
+    bash -c "$(curl -fsSL https://gef.blah.cat/sh)"
     pip install pwntools
     git clone https://github.com/hoheinzollern/workshop-cybersikkehed.git
     ```
