@@ -43,3 +43,7 @@ On the second day we will cover [Lesson 3: Buffer overflows](http://gcc.rce.so/l
 - Do some [crackmes](https://crackmes.one/)!
 - Own them nice flags at [PicoCTF](https://www.picoctf.org/)
 - Learn return-oriented programming at [ROP Emporium](https://ropemporium.com/)
+
+## Recordings
+
+Session recordings are available [here](https://ituniversity-my.sharepoint.com/:f:/g/personal/brun_itu_dk/EtHadssW86ZJiNi3VNLIHIwBMCeAEFKwdlZzZEuQhvuWQQ?e=ZGFZeM)
